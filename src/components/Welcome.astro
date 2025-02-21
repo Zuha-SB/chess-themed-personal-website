@@ -1,10 +1,7 @@
 ---
 import background from '../assets/background.svg';
 ---
-<!doctype html>
-<html>
-	<head></head>
-	<body id="container">
+<div id="container">
 	<img id="background" src={background.src} alt="" fetchpriority="high" />
 	<div id="main">
 		<div id="hero">
@@ -30,8 +27,7 @@ import background from '../assets/background.svg';
 			I will be your guide today
 		</p>
 	</a>
- </body>
-
+</div>
 <script>
 
     document.querySelectorAll('#pieces button').forEach(button => {
@@ -138,4 +134,3 @@ import background from '../assets/background.svg';
 	}
 
 </style>
-</html>
